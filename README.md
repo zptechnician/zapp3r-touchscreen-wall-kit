@@ -1,6 +1,6 @@
-# Zapp3r Partner Wall Kit: Self-Hosted Interactive Display Engine
+# Zapp3r Touchscreen Wall Kit: Self-Hosted Interactive Display Code
 
-Zapp3r Partner Wall Kit is a logic-driven React framework designed to transform any touchscreen into a professional, multi-collection interactive wall. Built for high-stakes environments, it replaces static presentations with a performance-optimized, self-hosted experience that is entirely driven by data.
+Zapp3r Touchscreen Wall Kit is a logic-driven React framework designed to transform any touchscreen into a professional, multi-collection interactive wall. Built for high-stakes environments, it replaces static presentations with a performance-optimized, self-hosted experience that is entirely driven by data.
 
 ## The Solution
 
