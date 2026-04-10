@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 220 30% 10%;
+    --card: 0 0% 100%;
+    --card-foreground: 220 30% 10%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 30% 10%;
+    --primary: 220 40% 13%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 220 14% 96%;
+    --secondary-foreground: 220 30% 10%;
+    --muted: 220 14% 96%;
+    --muted-foreground: 220 10% 46%;
+    --accent: 243 100% 67%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+    --navy: 213 100% 12%;
+    --navy-foreground: 0 0% 100%;
+    --cta: 245 45% 48%;
+    --cta-foreground: 0 0% 100%;
+    --cta-active: 245 45% 40%;
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 220 40% 13%;
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 220 10% 26%;
+    --sidebar-primary: 220 40% 13%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 220 14% 96%;
+    --sidebar-accent-foreground: 220 10% 26%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 243 100% 67%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: 'Inter', sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+  }
+}
+
+@layer utilities {
+  .touch-press {
+    @apply transition-transform duration-150 active:scale-95;
+  }
+
+  .kiosk-page {
+    @apply min-h-screen flex flex-col;
+  }
+
+  .kiosk-content {
+    @apply flex-1 flex flex-col items-center justify-center px-12 py-10;
+  }
+
+  .kiosk-footer {
+    @apply px-12 py-8 flex justify-center;
+  }
+
+  .kiosk-heading {
+    @apply text-5xl font-extrabold tracking-tight mb-3;
+  }
+
+  .kiosk-subtext {
+    @apply text-base font-normal mb-20;
+  }
+
+  .section-label {
+    @apply text-xs font-semibold uppercase tracking-[0.2em] text-muted-foreground mb-3;
+  }
+}

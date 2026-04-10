@@ -1,0 +1,190 @@
+{
+  "settings": {
+    "partnerWallTitle": "Our partner network",
+    "customerWallTitle": "Customer Spotlight"
+  },
+  "partners": [
+    {
+      "id": "p1",
+      "name": "Brand 1",
+      "logo": "/assets/logo-p1.webp",
+      "hero": "/assets/hero-p1.webp",
+      "challenge": "Brand 1's payment infrastructure was fragmented across 14 markets, with each region running its own integration—leading to months-long deployment cycles and inconsistent customer experiences.",
+      "solution": "They adopted a unified API layer to consolidate all payment processing into a single integration, enabling deployment across every market simultaneously.",
+      "impact": "Processing volume increased by 340%. Checkout conversion improved by 28%, driving significant additional annual revenue."
+    },
+    {
+      "id": "p2",
+      "name": "Brand 2",
+      "logo": "/assets/logo-p2.webp",
+      "hero": "/assets/hero-p2.webp",
+      "challenge": "Brand 2's manual fraud review process couldn't scale with their growing global merchant network, leading to rising losses and overwhelmed operations teams.",
+      "solution": "They implemented a real-time fraud detection system powered by machine learning models trained on transaction patterns across their entire merchant base.",
+      "impact": "Fraud losses decreased by 67%. False positive rates dropped to under 0.3%, saving over 2,000 hours of manual review per month."
+    },
+    {
+      "id": "p3",
+      "name": "Brand 3",
+      "logo": "/assets/logo-p3.webp",
+      "hero": "/assets/hero-p3.webp",
+      "challenge": "Brand 3 needed to bill 200,000+ accounts with automated metering, but their legacy invoicing system couldn't handle the scale or complexity.",
+      "solution": "They built a subscription billing platform enabling automated metering, invoicing, and payment reconciliation across their entire distributed network.",
+      "impact": "Billing accuracy improved to 99.97%. Customer churn reduced by 41% due to seamless payment experiences."
+    },
+    {
+      "id": "p4",
+      "name": "Brand 4",
+      "logo": "/assets/logo-p4.webp",
+      "hero": "/assets/hero-p4.webp",
+      "challenge": "Brand 4's creator marketplace struggled with slow payouts and complex multi-currency splits, causing creator dissatisfaction and platform churn.",
+      "solution": "They created a marketplace payments solution enabling instant payouts to thousands of creators with complex split payments and multi-currency settlements.",
+      "impact": "Creator satisfaction scores increased by 52%. Platform GMV grew 4x in 18 months, with payout times reduced from 7 days to under 60 seconds."
+    },
+    {
+      "id": "p5",
+      "name": "Brand 5",
+      "logo": "/assets/logo-p5.webp",
+      "hero": "/assets/hero-p5.webp",
+      "challenge": "Patients were abandoning telehealth sessions before payment, and clinical staff spent excessive time on billing administration instead of patient care.",
+      "solution": "They integrated a compliant payment system directly into the telehealth workflow, enabling seamless in-app payments without leaving the consultation.",
+      "impact": "Payment completion rates rose to 94%. Administrative overhead for billing dropped by 60%."
+    },
+    {
+      "id": "p6",
+      "name": "Brand 6",
+      "logo": "/assets/logo-p6.webp",
+      "hero": "/assets/hero-p6.webp",
+      "challenge": "Brand 6 was losing 68% of international checkouts due to missing local payment methods, currency friction, and regulatory compliance gaps across 45+ countries.",
+      "solution": "They deployed a cross-border commerce engine that automatically handles currency conversion, local payment methods, and regulatory compliance.",
+      "impact": "International revenue grew by 220%. Checkout abandonment in non-domestic markets fell from 68% to 23%."
+    },
+    {
+      "id": "p7",
+      "name": "Brand 7",
+      "logo": "/assets/logo-p7.webp",
+      "hero": "/assets/hero-p7.webp",
+      "challenge": "Failed payment authorizations were silently draining revenue across Brand 7's merchant portfolio, with no visibility into retry logic or routing optimization.",
+      "solution": "They developed an intelligent revenue optimization engine that dynamically adjusts pricing, retry logic, and routing to maximize authorization rates.",
+      "impact": "Authorization rates improved by 8.3 percentage points. Revenue recovery from failed payments exceeded significant annual savings."
+    },
+    {
+      "id": "p8",
+      "name": "Brand 8",
+      "logo": "/assets/logo-p8.webp",
+      "hero": "/assets/hero-p8.webp",
+      "challenge": "Brand 8 needed to support microtransactions across mobile, console, and PC simultaneously—but no single platform could handle 50,000 purchases per second at peak.",
+      "solution": "They built an in-platform commerce system supporting microtransactions, season passes, and virtual currency across all ecosystems.",
+      "impact": "Average revenue per user increased by 35%. Transaction throughput scaled to handle 50,000 purchases per second during peak events."
+    },
+    {
+      "id": "p9",
+      "name": "Brand 9",
+      "logo": "/assets/logo-p9.webp",
+      "hero": "/assets/hero-p9.webp",
+      "challenge": "Fintech startups building on Brand 9's infrastructure faced 12-month timelines to launch basic financial products, losing competitive advantage in a fast-moving market.",
+      "solution": "They architected a Banking-as-a-Service platform with embedded lending, issuing, and treasury management capabilities for fintech startups.",
+      "impact": "Time-to-market for new fintech products reduced from 12 months to 6 weeks. Platform now powers 140+ financial applications."
+    },
+    {
+      "id": "p10",
+      "name": "Brand 10",
+      "logo": "/assets/logo-p10.webp",
+      "hero": "/assets/hero-p10.webp",
+      "challenge": "Brand 10's global supply chain suffered from 45-day payment cycles and frequent reconciliation errors between shippers, carriers, and warehouses.",
+      "solution": "They implemented automated invoicing and payment tracking, connecting all supply chain participants on a single financial rail.",
+      "impact": "Days Sales Outstanding decreased from 45 to 12 days. Reconciliation errors dropped by 92%."
+    },
+    {
+      "id": "p11",
+      "name": "Brand 11",
+      "logo": "/assets/logo-p11.webp",
+      "hero": "/assets/hero-p11.webp",
+      "challenge": "Brand 11's creators were spread across multiple monetization tools with no unified dashboard, leading to fragmented earnings and low subscriber retention.",
+      "solution": "They launched a content monetization platform with flexible subscription tiers, pay-per-view, and tipping—all unified under a single creator dashboard.",
+      "impact": "Creator earnings increased by an average of 73%. Subscriber retention improved to 89%."
+    },
+    {
+      "id": "p12",
+      "name": "Brand 12",
+      "logo": "/assets/logo-p12.webp",
+      "hero": "/assets/hero-p12.webp",
+      "challenge": "Brand 12's industrial clients wanted usage-based pricing tied to machine output, but their billing system only supported traditional purchase models.",
+      "solution": "They integrated IoT-triggered billing for their automation fleet, enabling usage-based pricing tied directly to machine output and uptime metrics.",
+      "impact": "Revenue predictability improved by 40%. Customer lifetime value increased 2.8x as clients shifted to flexible models."
+    }
+  ],
+  "customers": [
+    {
+      "id": "c1",
+      "name": "Brand 13",
+      "logo": "/assets/logo-c1.webp",
+      "hero": "/assets/hero-c1.webp",
+      "challenge": "Brand 13's omnichannel checkout experience was inconsistent between in-store, online, and mobile, causing friction and cart abandonment across channels.",
+      "solution": "They unified their payment stack across all channels with a single integration, enabling seamless checkout whether customers shop in-store, online, or via mobile app.",
+      "impact": "Cross-channel conversion increased by 31%. Returns processing time decreased by 45%, improving both customer satisfaction and operational efficiency."
+    },
+    {
+      "id": "c2",
+      "name": "Brand 14",
+      "logo": "/assets/logo-c2.webp",
+      "hero": "/assets/hero-c2.webp",
+      "challenge": "Brand 14 needed to scale their loyalty and payments integration across 500+ locations while maintaining sub-second transaction speeds at checkout.",
+      "solution": "They deployed a high-performance payment processing layer that integrates loyalty rewards, gift cards, and contactless payments in a single tap-to-pay experience.",
+      "impact": "Average transaction time reduced by 22%. Loyalty program enrollment increased 3x, driving a 15% increase in repeat visit frequency."
+    },
+    {
+      "id": "c3",
+      "name": "Brand 15",
+      "logo": "/assets/logo-c3.webp",
+      "hero": "/assets/hero-c3.webp",
+      "challenge": "Brand 15's try-at-home model created complex billing scenarios with delayed charges, partial refunds, and insurance claims that their existing system couldn't handle.",
+      "solution": "They built a flexible billing engine supporting deferred payments, partial captures, and automated claim reconciliation—all tied to their try-at-home workflow.",
+      "impact": "Billing disputes decreased by 58%. Customer satisfaction with the payment experience reached 96%."
+    },
+    {
+      "id": "c4",
+      "name": "Brand 16",
+      "logo": "/assets/logo-c4.webp",
+      "hero": "/assets/hero-c4.webp",
+      "challenge": "Brand 16's marketplace expansion required onboarding thousands of third-party sellers with compliant payouts, tax reporting, and fraud screening at scale.",
+      "solution": "They implemented an automated seller onboarding and payout platform with built-in KYC verification, tax reporting, and real-time fraud monitoring.",
+      "impact": "Seller onboarding time reduced from 14 days to 48 hours. Marketplace GMV grew significantly in the first year with a fraud rate under 0.1%."
+    },
+    {
+      "id": "c5",
+      "name": "Brand 17",
+      "logo": "/assets/logo-c5.webp",
+      "hero": "/assets/hero-c5.webp",
+      "challenge": "Brand 17's global expansion was hampered by the need to integrate different payment providers in each new market, delaying launches by 6-9 months per country.",
+      "solution": "They adopted a single global payments platform supporting 135+ currencies and 40+ local payment methods, with automatic regulatory compliance per market.",
+      "impact": "New market launch time reduced from 9 months to 3 weeks. International e-commerce revenue grew by 180% within the first year."
+    },
+    {
+      "id": "c6",
+      "name": "Brand 18",
+      "logo": "/assets/logo-c6.webp",
+      "hero": "/assets/hero-c6.webp",
+      "challenge": "Brand 18's membership renewal and e-commerce payment systems were separate platforms, creating reconciliation headaches and a disjointed member experience.",
+      "solution": "They unified membership billing and e-commerce transactions on a single platform, enabling auto-renewals, stored payment methods, and consolidated member statements.",
+      "impact": "Membership renewal rate improved by 4.2 percentage points. E-commerce revenue per member increased by 27%."
+    },
+    {
+      "id": "c7",
+      "name": "Brand 19",
+      "logo": "/assets/logo-c7.webp",
+      "hero": "/assets/hero-c7.webp",
+      "challenge": "Brand 19's subscription and one-time purchase flows used different checkout experiences, confusing customers and reducing subscription sign-up rates.",
+      "solution": "They built a unified checkout supporting both one-time purchases and subscriptions in a single flow, with smart upsell prompts and flexible subscription management.",
+      "impact": "Subscription sign-up rates increased by 43%. Average order value grew by 18% through intelligent cross-sell recommendations at checkout."
+    },
+    {
+      "id": "c8",
+      "name": "Brand 20",
+      "logo": "/assets/logo-c8.webp",
+      "hero": "/assets/hero-c8.webp",
+      "challenge": "Brand 20's co-op dividend program required complex annual calculations tied to purchase history, but their payment system couldn't track member transactions across channels.",
+      "solution": "They implemented a unified transaction ledger that tracks every member purchase across online, in-store, and marketplace channels, feeding directly into dividend calculations.",
+      "impact": "Dividend calculation accuracy reached 99.99%. Member engagement with the co-op program increased by 34%."
+    }
+  ]
+}
