@@ -6,7 +6,7 @@ const FIRST_VISIBLE_ROW = 6;
 
 const prefetched = new Set<string>();
 function prefetchHero(url: string) {
-  if (prefetched.has(url)) return;
+  if (!url || prefetched.has(url)) return;
   prefetched.add(url);
   const link = document.createElement("link");
   link.rel = "prefetch";
@@ -20,15 +20,20 @@ interface GridItemProps {
   aspect: string;
   dark: boolean;
   lazy: boolean;
-  onTap: (id: string) => void;
+  onTap: (entry: KioskEntry) => void;
 }
 
 const GridItem = memo(({ entry, aspect, dark, lazy, onTap }: GridItemProps) => (
   <button
-    onClick={() => onTap(entry.id)}
+    onClick={() => onTap(entry)}
     onTouchStart={() => prefetchHero(entry.hero)}
     onMouseEnter={() => prefetchHero(entry.hero)}
     className={`touch-press flex items-center justify-center ${aspect} min-h-[44px] min-w-[44px]`}
+    aria-label={
+      entry.hasDetailPage === false
+        ? `View ${entry.name} on Customer Wall`
+        : `View ${entry.name} case study`
+    }
   >
     <img
       src={entry.logo}
@@ -68,7 +73,15 @@ const KioskGrid = ({ entries, columns, fromParam, dark = false }: KioskGridProps
   const aboveFold = columns === 3 ? FIRST_VISIBLE_ROW : 4;
 
   const handleTap = useCallback(
-    (id: string) => navigate(`/detail/${id}?from=${fromParam}`),
+    (entry: KioskEntry) => {
+      // If hasDetailPage is explicitly false, redirect to the Customer Wall
+      // instead of navigating to a blank detail page.
+      if (entry.hasDetailPage === false) {
+        navigate("/customers");
+      } else {
+        navigate(`/detail/${entry.id}?from=${fromParam}`);
+      }
+    },
     [navigate, fromParam]
   );
 

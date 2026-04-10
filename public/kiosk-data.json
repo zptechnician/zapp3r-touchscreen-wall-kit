@@ -9,9 +9,10 @@
       "name": "Brand 1",
       "logo": "/assets/logo-p1.webp",
       "hero": "/assets/hero-p1.webp",
-      "challenge": "Brand 1's payment infrastructure was fragmented across 14 markets, with each region running its own integration—leading to months-long deployment cycles and inconsistent customer experiences.",
+      "challenge": "Brand 1's payment infrastructure was fragmented across 14 markets, with each region running its own integration\u2014leading to months-long deployment cycles and inconsistent customer experiences.",
       "solution": "They adopted a unified API layer to consolidate all payment processing into a single integration, enabling deployment across every market simultaneously.",
-      "impact": "Processing volume increased by 340%. Checkout conversion improved by 28%, driving significant additional annual revenue."
+      "impact": "Processing volume increased by 340%. Checkout conversion improved by 28%, driving significant additional annual revenue.",
+      "hasDetailPage": false
     },
     {
       "id": "p2",
@@ -20,7 +21,8 @@
       "hero": "/assets/hero-p2.webp",
       "challenge": "Brand 2's manual fraud review process couldn't scale with their growing global merchant network, leading to rising losses and overwhelmed operations teams.",
       "solution": "They implemented a real-time fraud detection system powered by machine learning models trained on transaction patterns across their entire merchant base.",
-      "impact": "Fraud losses decreased by 67%. False positive rates dropped to under 0.3%, saving over 2,000 hours of manual review per month."
+      "impact": "Fraud losses decreased by 67%. False positive rates dropped to under 0.3%, saving over 2,000 hours of manual review per month.",
+      "hasDetailPage": false
     },
     {
       "id": "p3",
@@ -29,7 +31,8 @@
       "hero": "/assets/hero-p3.webp",
       "challenge": "Brand 3 needed to bill 200,000+ accounts with automated metering, but their legacy invoicing system couldn't handle the scale or complexity.",
       "solution": "They built a subscription billing platform enabling automated metering, invoicing, and payment reconciliation across their entire distributed network.",
-      "impact": "Billing accuracy improved to 99.97%. Customer churn reduced by 41% due to seamless payment experiences."
+      "impact": "Billing accuracy improved to 99.97%. Customer churn reduced by 41% due to seamless payment experiences.",
+      "hasDetailPage": false
     },
     {
       "id": "p4",
@@ -38,7 +41,8 @@
       "hero": "/assets/hero-p4.webp",
       "challenge": "Brand 4's creator marketplace struggled with slow payouts and complex multi-currency splits, causing creator dissatisfaction and platform churn.",
       "solution": "They created a marketplace payments solution enabling instant payouts to thousands of creators with complex split payments and multi-currency settlements.",
-      "impact": "Creator satisfaction scores increased by 52%. Platform GMV grew 4x in 18 months, with payout times reduced from 7 days to under 60 seconds."
+      "impact": "Creator satisfaction scores increased by 52%. Platform GMV grew 4x in 18 months, with payout times reduced from 7 days to under 60 seconds.",
+      "hasDetailPage": false
     },
     {
       "id": "p5",
@@ -47,7 +51,8 @@
       "hero": "/assets/hero-p5.webp",
       "challenge": "Patients were abandoning telehealth sessions before payment, and clinical staff spent excessive time on billing administration instead of patient care.",
       "solution": "They integrated a compliant payment system directly into the telehealth workflow, enabling seamless in-app payments without leaving the consultation.",
-      "impact": "Payment completion rates rose to 94%. Administrative overhead for billing dropped by 60%."
+      "impact": "Payment completion rates rose to 94%. Administrative overhead for billing dropped by 60%.",
+      "hasDetailPage": false
     },
     {
       "id": "p6",
@@ -56,7 +61,8 @@
       "hero": "/assets/hero-p6.webp",
       "challenge": "Brand 6 was losing 68% of international checkouts due to missing local payment methods, currency friction, and regulatory compliance gaps across 45+ countries.",
       "solution": "They deployed a cross-border commerce engine that automatically handles currency conversion, local payment methods, and regulatory compliance.",
-      "impact": "International revenue grew by 220%. Checkout abandonment in non-domestic markets fell from 68% to 23%."
+      "impact": "International revenue grew by 220%. Checkout abandonment in non-domestic markets fell from 68% to 23%.",
+      "hasDetailPage": false
     },
     {
       "id": "p7",
@@ -65,16 +71,18 @@
       "hero": "/assets/hero-p7.webp",
       "challenge": "Failed payment authorizations were silently draining revenue across Brand 7's merchant portfolio, with no visibility into retry logic or routing optimization.",
       "solution": "They developed an intelligent revenue optimization engine that dynamically adjusts pricing, retry logic, and routing to maximize authorization rates.",
-      "impact": "Authorization rates improved by 8.3 percentage points. Revenue recovery from failed payments exceeded significant annual savings."
+      "impact": "Authorization rates improved by 8.3 percentage points. Revenue recovery from failed payments exceeded significant annual savings.",
+      "hasDetailPage": false
     },
     {
       "id": "p8",
       "name": "Brand 8",
       "logo": "/assets/logo-p8.webp",
       "hero": "/assets/hero-p8.webp",
-      "challenge": "Brand 8 needed to support microtransactions across mobile, console, and PC simultaneously—but no single platform could handle 50,000 purchases per second at peak.",
+      "challenge": "Brand 8 needed to support microtransactions across mobile, console, and PC simultaneously\u2014but no single platform could handle 50,000 purchases per second at peak.",
       "solution": "They built an in-platform commerce system supporting microtransactions, season passes, and virtual currency across all ecosystems.",
-      "impact": "Average revenue per user increased by 35%. Transaction throughput scaled to handle 50,000 purchases per second during peak events."
+      "impact": "Average revenue per user increased by 35%. Transaction throughput scaled to handle 50,000 purchases per second during peak events.",
+      "hasDetailPage": false
     },
     {
       "id": "p9",
@@ -83,7 +91,8 @@
       "hero": "/assets/hero-p9.webp",
       "challenge": "Fintech startups building on Brand 9's infrastructure faced 12-month timelines to launch basic financial products, losing competitive advantage in a fast-moving market.",
       "solution": "They architected a Banking-as-a-Service platform with embedded lending, issuing, and treasury management capabilities for fintech startups.",
-      "impact": "Time-to-market for new fintech products reduced from 12 months to 6 weeks. Platform now powers 140+ financial applications."
+      "impact": "Time-to-market for new fintech products reduced from 12 months to 6 weeks. Platform now powers 140+ financial applications.",
+      "hasDetailPage": false
     },
     {
       "id": "p10",
@@ -92,7 +101,8 @@
       "hero": "/assets/hero-p10.webp",
       "challenge": "Brand 10's global supply chain suffered from 45-day payment cycles and frequent reconciliation errors between shippers, carriers, and warehouses.",
       "solution": "They implemented automated invoicing and payment tracking, connecting all supply chain participants on a single financial rail.",
-      "impact": "Days Sales Outstanding decreased from 45 to 12 days. Reconciliation errors dropped by 92%."
+      "impact": "Days Sales Outstanding decreased from 45 to 12 days. Reconciliation errors dropped by 92%.",
+      "hasDetailPage": false
     },
     {
       "id": "p11",
@@ -100,8 +110,9 @@
       "logo": "/assets/logo-p11.webp",
       "hero": "/assets/hero-p11.webp",
       "challenge": "Brand 11's creators were spread across multiple monetization tools with no unified dashboard, leading to fragmented earnings and low subscriber retention.",
-      "solution": "They launched a content monetization platform with flexible subscription tiers, pay-per-view, and tipping—all unified under a single creator dashboard.",
-      "impact": "Creator earnings increased by an average of 73%. Subscriber retention improved to 89%."
+      "solution": "They launched a content monetization platform with flexible subscription tiers, pay-per-view, and tipping\u2014all unified under a single creator dashboard.",
+      "impact": "Creator earnings increased by an average of 73%. Subscriber retention improved to 89%.",
+      "hasDetailPage": false
     },
     {
       "id": "p12",
@@ -110,7 +121,8 @@
       "hero": "/assets/hero-p12.webp",
       "challenge": "Brand 12's industrial clients wanted usage-based pricing tied to machine output, but their billing system only supported traditional purchase models.",
       "solution": "They integrated IoT-triggered billing for their automation fleet, enabling usage-based pricing tied directly to machine output and uptime metrics.",
-      "impact": "Revenue predictability improved by 40%. Customer lifetime value increased 2.8x as clients shifted to flexible models."
+      "impact": "Revenue predictability improved by 40%. Customer lifetime value increased 2.8x as clients shifted to flexible models.",
+      "hasDetailPage": false
     }
   ],
   "customers": [
@@ -138,7 +150,7 @@
       "logo": "/assets/logo-c3.webp",
       "hero": "/assets/hero-c3.webp",
       "challenge": "Brand 15's try-at-home model created complex billing scenarios with delayed charges, partial refunds, and insurance claims that their existing system couldn't handle.",
-      "solution": "They built a flexible billing engine supporting deferred payments, partial captures, and automated claim reconciliation—all tied to their try-at-home workflow.",
+      "solution": "They built a flexible billing engine supporting deferred payments, partial captures, and automated claim reconciliation\u2014all tied to their try-at-home workflow.",
       "impact": "Billing disputes decreased by 58%. Customer satisfaction with the payment experience reached 96%."
     },
     {
