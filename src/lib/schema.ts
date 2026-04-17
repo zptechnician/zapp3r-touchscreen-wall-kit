@@ -34,6 +34,16 @@ export const PartnerSchema = z.object({
     .string()
     .startsWith("/assets/logos/", "Logo path must start with /assets/logos/")
     .endsWith(".png", "Logo must be a .png file"),
+  /**
+   * Optional header logo — shown in the top-right of the T-layout detail page.
+   * Falls back to `logo` when omitted.
+   * Path convention: /assets/logos/brand-a-header.png
+   */
+  logoHeader: z
+    .string()
+    .startsWith("/assets/logos/", "Header logo path must start with /assets/logos/")
+    .endsWith(".png", "Header logo must be a .png file")
+    .optional(),
   hero: z
     .string()
     .startsWith("/assets/heroes/", "Hero path must start with /assets/heroes/")
@@ -64,6 +74,16 @@ export const CustomerSchema = z.object({
     .string()
     .startsWith("/assets/logos/", "Logo path must start with /assets/logos/")
     .endsWith(".png", "Logo must be a .png file"),
+  /**
+   * Optional header logo — shown in the top-right of the T-layout detail page.
+   * Falls back to `logo` when omitted.
+   * Path convention: /assets/logos/brand-a-header.png
+   */
+  logoHeader: z
+    .string()
+    .startsWith("/assets/logos/", "Header logo path must start with /assets/logos/")
+    .endsWith(".png", "Header logo must be a .png file")
+    .optional(),
   hero: z
     .string()
     .startsWith("/assets/heroes/", "Hero path must start with /assets/heroes/")

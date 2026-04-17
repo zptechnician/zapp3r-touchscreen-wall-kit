@@ -9,6 +9,16 @@ export interface KioskEntry {
   solution: string;
   impact: string;
   /**
+   * Optional header logo — shown in the top-right of the T-layout detail page.
+   * Falls back to `logo` when omitted.
+   *
+   * Use this when the brand has a horizontal wordmark or alternate lockup
+   * that reads better at header scale than the square grid icon.
+   *
+   * Path convention: /assets/logos/brand-a-header.png
+   */
+  logoHeader?: string;
+  /**
    * Controls whether tapping this entry navigates to a case study detail page.
    *   true  (default when omitted) → navigates to /detail/:id
    *   false → navigates to the Customer Wall (/customers) instead

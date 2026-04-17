@@ -31,14 +31,20 @@ const DetailPage = () => {
     );
   }
 
+  // Resolve header logo: prefer logoHeader if present, fall back to logo
+  const headerLogoSrc = entry.logoHeader ?? entry.logo;
+
   return (
     <div className="kiosk-page bg-background px-12 py-10">
-      {/* Header row: 'Case study' left, brand name right */}
-      <div className="flex items-end justify-between mb-8">
+      {/* Header row: 'Case study' left, brand logo right */}
+      <div className="flex items-center justify-between mb-8">
         <span className="section-label !mb-0">Case study</span>
-        <h1 className="text-3xl font-extrabold text-primary tracking-tight">
-          {entry.name}
-        </h1>
+        <FallbackImage
+          src={headerLogoSrc}
+          alt={entry.name}
+          height={48}
+          className="h-12 w-auto max-w-[220px] object-contain rounded-none"
+        />
       </div>
 
       {/* Full-width hero — eager load, aspect-video */}

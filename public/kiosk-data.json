@@ -9,7 +9,7 @@
       "name": "Brand A",
       "logo": "/assets/logos/brand-a.png",
       "hero": "/assets/heroes/brand-a.webp",
-      "challenge": "Brand A's payment infrastructure was fragmented across 14 markets, with each region running its own integration — leading to months-long deployment cycles and inconsistent customer experiences.",
+      "challenge": "Brand A's payment infrastructure was fragmented across 14 markets, with each region running its own integration \u2014 leading to months-long deployment cycles and inconsistent customer experiences.",
       "solution": "They adopted a unified API layer to consolidate all payment processing into a single integration, enabling deployment across every market simultaneously.",
       "impact": "Processing volume increased by 340%. Checkout conversion improved by 28%, driving significant additional annual revenue.",
       "hasDetailPage": false
@@ -79,7 +79,7 @@
       "name": "Brand H",
       "logo": "/assets/logos/brand-h.png",
       "hero": "/assets/heroes/brand-h.webp",
-      "challenge": "Brand H needed to support microtransactions across mobile, console, and PC simultaneously — but no single platform could handle 50,000 purchases per second at peak.",
+      "challenge": "Brand H needed to support microtransactions across mobile, console, and PC simultaneously \u2014 but no single platform could handle 50,000 purchases per second at peak.",
       "solution": "They built an in-platform commerce system supporting microtransactions, season passes, and virtual currency across all ecosystems.",
       "impact": "Average revenue per user increased by 35%. Transaction throughput scaled to handle 50,000 purchases per second during peak events.",
       "hasDetailPage": false
@@ -110,7 +110,7 @@
       "logo": "/assets/logos/brand-k.png",
       "hero": "/assets/heroes/brand-k.webp",
       "challenge": "Brand K's creators were spread across multiple monetization tools with no unified dashboard, leading to fragmented earnings and low subscriber retention.",
-      "solution": "They launched a content monetization platform with flexible subscription tiers, pay-per-view, and tipping — all unified under a single creator dashboard.",
+      "solution": "They launched a content monetization platform with flexible subscription tiers, pay-per-view, and tipping \u2014 all unified under a single creator dashboard.",
       "impact": "Creator earnings increased by an average of 73%. Subscriber retention improved to 89%.",
       "hasDetailPage": false
     },
@@ -133,7 +133,8 @@
       "hero": "/assets/heroes/brand-a.webp",
       "challenge": "Brand A's omnichannel checkout experience was inconsistent between in-store, online, and mobile, causing friction and cart abandonment across channels.",
       "solution": "They unified their payment stack across all channels with a single integration, enabling seamless checkout whether customers shop in-store, online, or via mobile app.",
-      "impact": "Cross-channel conversion increased by 31%. Returns processing time decreased by 45%, improving both customer satisfaction and operational efficiency."
+      "impact": "Cross-channel conversion increased by 31%. Returns processing time decreased by 45%, improving both customer satisfaction and operational efficiency.",
+      "logoHeader": "/assets/logos/brand-a-header.png"
     },
     {
       "id": "customer-b",
@@ -150,7 +151,7 @@
       "logo": "/assets/logos/brand-c.png",
       "hero": "/assets/heroes/brand-c.webp",
       "challenge": "Brand C's try-at-home model created complex billing scenarios with delayed charges, partial refunds, and insurance claims that their existing system couldn't handle.",
-      "solution": "They built a flexible billing engine supporting deferred payments, partial captures, and automated claim reconciliation — all tied to their try-at-home workflow.",
+      "solution": "They built a flexible billing engine supporting deferred payments, partial captures, and automated claim reconciliation \u2014 all tied to their try-at-home workflow.",
       "impact": "Billing disputes decreased by 58%. Customer satisfaction with the payment experience reached 96%."
     },
     {
