@@ -5,8 +5,25 @@ import KioskGrid from "@/components/KioskGrid";
 import NavButton from "@/components/NavButton";
 
 const CustomerWall = () => {
-  const data = useKioskData();
+  const { data, loading, auditError, fetchError } = useKioskData();
   const navigate = useNavigate();
+
+  if (loading) return null;
+
+  if (fetchError || auditError) {
+    return (
+      <div className="kiosk-page bg-navy flex items-center justify-center">
+        <div className="max-w-lg text-center p-8">
+          <p className="text-sm font-mono uppercase tracking-widest text-red-400 mb-3">
+            {fetchError ? "Connection Error" : "Data Audit Failed"}
+          </p>
+          <p className="text-navy-foreground/60 text-sm whitespace-pre-wrap font-mono">
+            {fetchError ?? auditError}
+          </p>
+        </div>
+      </div>
+    );
+  }
 
   if (!data) return null;
 
@@ -21,7 +38,6 @@ const CustomerWall = () => {
         </p>
         <KioskGrid entries={data.customers} columns={2} fromParam="customers" dark />
       </div>
-
       <div className="kiosk-footer">
         <NavButton
           onClick={() => navigate("/partners")}
