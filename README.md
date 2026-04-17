@@ -85,7 +85,7 @@ docker run -d -p 8080:8080 \
   -v "/path/to/kiosk-content/kiosk-data.json:/usr/share/nginx/html/kiosk-data.json:ro" \
   -v "/path/to/kiosk-content/assets:/usr/share/nginx/html/assets:ro" \
   --name zapp3r-kiosk \
-  zapp3r-partner-wall-kit
+  zapp3r-touchscreen-wall-kit
 ```
 
 The kiosk will be live at `http://localhost:8080`.
